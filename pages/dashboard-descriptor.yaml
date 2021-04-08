@@ -1,0 +1,31 @@
+code: octo_dashboard
+parentCode: homepage
+titles:
+  en: Octo Dashboard
+  it: Octo Dashboard
+pageModel: octo_dashboard_page_template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: octo_brand_sidebar
+    config: null
+    pos: 0
+  - code: octo_brand_topbar
+    config: null
+    pos: 1
+  - code: octo-card-widget
+    config: null
+    pos: 2
+  - code: octo-card-mock-widget
+    config: null
+    pos: 3
+  - code: octo_brand_graphrow
+    config: null
+    pos: 4
+  - code: octo_brand_copyright
+    config: null
+    pos: 5

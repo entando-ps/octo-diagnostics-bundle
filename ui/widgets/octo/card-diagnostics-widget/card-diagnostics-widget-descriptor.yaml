@@ -1,0 +1,12 @@
+code: card-diagnostics-widget
+titles:
+    en: Card Diagnostics
+    it: Card Diagnostics
+group: free
+customUiPath: card-diagnostics-widget.ftl
+configUi:
+    customElement: card-diagnostics-config
+    resources:
+        - octo-poc-bundle/static/js/2.8146131b.chunk.js #a file like js/runtime~main.c7dcdf0b.js
+        - octo-poc-bundle/static/js/main.674b73ff.chunk.js #a file like js/2.230b21ef.chunk.js
+        - octo-poc-bundle/static/js/runtime-main.e00b30ca.js #a file like js/main.1fd3965a.chunk.js

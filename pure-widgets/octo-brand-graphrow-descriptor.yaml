@@ -1,0 +1,6 @@
+code: octo_brand_graphrow
+titles:
+  en: Octo Brand Graphrow
+  it: Octo Brand Graphrow
+group: free
+customUiPath: octo-brand-graphrow.ftl

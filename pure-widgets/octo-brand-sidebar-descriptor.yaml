@@ -1,0 +1,6 @@
+code: octo_brand_sidebar
+titles:
+  en: Octo Brand Sidebar
+  it: Octo Brand Sidebar
+group: free
+customUiPath: octo-brand-sidebar.ftl

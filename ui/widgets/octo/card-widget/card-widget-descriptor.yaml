@@ -1,0 +1,6 @@
+code: octo-card-widget
+titles:
+  en: Octo Card Widget
+  it: Octo Card Widget
+group: free
+customUiPath: card-widget.ftl

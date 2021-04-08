@@ -1,0 +1,6 @@
+code: octo_brand_app_header
+titles:
+  en: Octo Brand App Header
+  it: Octo Brand App Header
+group: free
+customUiPath: octo-brand-app-header.ftl

@@ -1,0 +1,6 @@
+code: octo-card-mock-widget
+titles:
+  en: Octo Card Mock Widget
+  it: Octo Card Mock Widget
+group: free
+customUiPath: card-mock-widget.ftl

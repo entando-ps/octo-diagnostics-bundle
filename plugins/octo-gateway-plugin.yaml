@@ -1,0 +1,13 @@
+image: entandodemo/octogateway:0.0.4
+dbms: none
+environmentVariables:
+  - name: OCTO_DASHBOARD_BASE_URL
+    value: 'change_me'
+  - name: DASHBOARD_BRANDED_PAGE_MAP_JSON
+    value: '{"octo":"octo_app_diagnostics","mybrand":"mybrand_app_diagnostics"}'
+  - name: APP_BRANDED_PAGE_MAP_JSON
+    value: '{"1":"octo_app_diagnostics","2":"mybrand_app_diagnostics"}'
+ingressPath: "/octogateway"
+healthCheckPath: '/management/health'
+roles:
+  - 'octogateway-admin'

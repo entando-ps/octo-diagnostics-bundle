@@ -1,0 +1,28 @@
+code: octo-poc-bundle
+description: Octo Poc Bundle
+components:
+  plugins:
+    - plugins/octo-dashboard-plugin.yaml
+    - plugins/octo-gateway-plugin.yaml
+  fragments:
+    - fragments/import-map-ux-fragment.yaml
+    - fragments/octo-dashboard-css-ux-fragment.yaml
+    - fragments/octo-dashboard-js-ux-fragment.yaml
+    - fragments/octo-clex-protection-fragment.yaml
+  pageModels:
+    - page-models/dashboard-page-template.yaml
+    - page-models/app-diagnostics-page-template.yaml
+  widgets:
+    - ui/widgets/octo/card-mock-widget/card-mock-widget-descriptor.yaml
+    - ui/widgets/octo/card-widget/card-widget-descriptor.yaml
+    - ui/widgets/octo/card-diagnostics-widget/card-diagnostics-widget-descriptor.yaml
+    - ui/widgets/config-widgets/card-diagnostics-config-widget/card-diagnostics-config-widget-descriptor.yaml
+    - pure-widgets/octo-brand-copyright-descriptor.yaml
+    - pure-widgets/octo-brand-graphrow-descriptor.yaml
+    - pure-widgets/octo-brand-sidebar-descriptor.yaml
+    - pure-widgets/octo-brand-topbar-descriptor.yaml
+    - pure-widgets/octo-brand-app-header-descriptor.yaml
+  pages:
+    - pages/dashboard-descriptor.yaml
+    - pages/mybrand-app-diagnostics-descriptor.yaml
+    - pages/octo-app-diagnostics-descriptor.yaml

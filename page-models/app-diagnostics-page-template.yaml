@@ -1,0 +1,29 @@
+code: octo_app_diagnostics_page_template
+description: page template for user-diagnostics in app
+
+titles:
+  en: Octo App Diagnostics Page Template
+  it: Octo App Diagnostics Page Template
+
+configuration:
+  frames:
+    - pos: 0
+      description: Header
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 11
+        y2: 0
+    - pos: 1
+      description: Body
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        x1: 0
+        y1: 1
+        x2: 11
+        y2: 1
+
+templatePath: app-diagnostics-page-template.ftl

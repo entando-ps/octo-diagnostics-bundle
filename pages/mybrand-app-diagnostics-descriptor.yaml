@@ -1,0 +1,23 @@
+code: mybrand_app_diagnostics
+parentCode: homepage
+titles:
+  en: MyBrand App Diagnostics
+  it: MyBrand App Diagnostics
+pageModel: octo_app_diagnostics_page_template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: mybrand_brand_app_header
+    config: null
+    pos: 0
+  - code: card-diagnostics-widget
+    config:
+      appName: MyBrandApp
+      logoUrl: ''
+      themeColor: '#1998c2'
+      themeSecondaryColor: '#fff'
+    pos: 1

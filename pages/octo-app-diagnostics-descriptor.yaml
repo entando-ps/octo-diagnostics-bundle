@@ -1,0 +1,23 @@
+code: octo_app_diagnostics
+parentCode: homepage
+titles:
+  en: Octo App Diagnostics
+  it: Octo App Diagnostics
+pageModel: octo_app_diagnostics_page_template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: octo_brand_app_header
+    config: null
+    pos: 0
+  - code: card-diagnostics-widget
+    config:
+      appName: DriverMate
+      logoUrl: ''
+      themeColor: '#47c678'
+      themeSecondaryColor: '#fff'
+    pos: 1

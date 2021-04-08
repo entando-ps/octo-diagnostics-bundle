@@ -1,0 +1,6 @@
+code: card-diagnostics-config-widget
+titles:
+  en: Card Diagnostics Config Widget
+  it: Card Diagnostics Config Widget
+group: administrators
+customUiPath: card-diagnostics-config-widget.ftl

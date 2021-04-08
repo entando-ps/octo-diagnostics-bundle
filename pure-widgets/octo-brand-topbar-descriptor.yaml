@@ -1,0 +1,6 @@
+code: octo_brand_topbar
+titles:
+  en: Octo Brand Topbar
+  it: Octo Brand Topbar
+group: free
+customUiPath: octo-brand-topbar.ftl

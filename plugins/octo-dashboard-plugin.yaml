@@ -1,0 +1,17 @@
+image: entandodemo/octodashboard:0.0.20
+dbms: none
+environmentVariables:
+  - name: OCTO_API_BASE_URL
+    value: 'change_me'
+  - name: OCTO_API_APPLICATION_ID
+    value: 'change_me'
+  - name: OCTO_API_TEST_USERNAME
+    value: 'change_me'
+  - name: OCTO_API_TEST_PASSWORD
+    value: 'change_me'
+  - name: OCTO_API_TEST_VOUCHER_ID
+    value: 'change_me'
+ingressPath: "/octodashboard"
+healthCheckPath: '/management/health'
+roles:
+  - 'octodashboard-admin'

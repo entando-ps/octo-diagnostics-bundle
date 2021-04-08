@@ -1,0 +1,6 @@
+code: mybrand_brand_app_header
+titles:
+  en: MyBrand Brand App Header
+  it: MyBrand Brand App Header
+group: free
+customUiPath: mybrand-brand-app-header.ftl

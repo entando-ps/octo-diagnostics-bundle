@@ -1,0 +1,6 @@
+code: octo_brand_copyright
+titles:
+  en: Octo Brand Copyright
+  it: Octo Brand Copyright
+group: free
+customUiPath: octo-brand-copyright.ftl
